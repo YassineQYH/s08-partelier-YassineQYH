@@ -22,7 +22,11 @@
 		<!-- Ma feuille de style pour mon blog -->
 		<!-- <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/style.css"> -->
 
-		<title>A la dérive, le blog</title>
+		<!-- <title>
+			<?php 
+				wp_title('|', true, 'right') . bloginfo('name')
+			?>
+		</title> -->
 
 		<?php wp_head(); ?>
 	</head>

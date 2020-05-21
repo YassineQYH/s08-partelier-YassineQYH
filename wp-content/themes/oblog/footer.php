@@ -17,16 +17,37 @@
 <!-- Je crée une nouvelle ligne dans ma grille virtuelle: https://getbootstrap.com/docs/4.1/layout/grid/
           Je déclare également que ces elements doivent être centré (flex): https://getbootstrap.com/docs/4.1/utilities/flex/#justify-content
           ainsi que leur textes: https://getbootstrap.com/docs/4.1/utilities/text/#text-alignment -->
+
 <div class="row justify-content-center text-center">
-  <div class="col-9 links">
-    <!-- Je créé une liste: https://getbootstrap.com/docs/4.1/components/list-group/ -->
-    <ul class="list-inline">
-      <li class="list-inline-item"><a href="/wp-content/themes/oblog/contact.php">Nous contacter</a></li>
-      <li class="list-inline-item"><a href="/wp-content/themes/oblog/qui-sommes-nous.php">Qui sommes nous ?</a></li>
-      <li class="list-inline-item"><a href="/wp-content/themes/oblog/mentions-legales.php">Mentions légales</a></li>
-    </ul>
-  </div>
+  <?php
+    // Affichage du menu
+    $menu = wp_nav_menu([
+      'theme_location' => 'footer',
+      'container' => 'div',
+      'menu_class' => 'list-inline',
+      'echo' => false
+      ]);
+
+      
+      // Je remplace ensuite ce que je ne peux pas controler directement ( les items )
+
+      $menu = str_replace('menu-item', 'list-inline-item', $menu);
+      /* $menu = str_replace('href', 'list-inline-item" href', $menu); */
+      echo $menu;
+  ?>
 </div>
+
+<!-- <div class="row justify-content-center text-center"> -->
+  <!-- <div class="col-9 links"> -->
+    <!-- Je créé une liste: https://getbootstrap.com/docs/4.1/components/list-group/ -->
+    <!-- <ul class="list-inline">
+      <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/contact.php">Nous contacter</a></li>
+      <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/qui-sommes-nous.php">Qui sommes nous ?</a></li>
+      <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/mentions-legales.php">Mentions légales</a></li>
+    </ul> -->
+  <!-- </div> -->
+<!-- </div> -->
+
 
 </footer>
 

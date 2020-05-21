@@ -19,7 +19,7 @@
   <!-- Ma feuille de style pour mon blog -->
   <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/style.css">
 
-  <title>Mentions légales</title>
+  <title>Contactez-nous</title>
 </head>
 
 <body>
@@ -83,53 +83,94 @@
         <!-- Je dispose une card: https://getbootstrap.com/docs/4.1/components/card/ -->
         <article class="card">
           <div class="card-body">
-            <h2 class="card-title">Mentions légales</h2>
+            <h2 class="card-title">Contactez-nous</h2>
             <p class="infos">
               Posté par <a href="#" class="card-link">Anthony</a> le <time>26/07/2018</time>
             </p>
             <p class="card-text">
-            
-              <h3>Editeur et responsable de publication</h3>
 
-              <p>Maxime O'clock : hey(AT)oblog.oclock.io</p>
+              <h3>La magie du web</h3>
 
-              <p>Ce blog est édité, à titre personnel, par les étudiants et les professeurs de l'école O'clock</p>
+              <p>Tenir un site ou un blog d’actualité est une aventure littéralement passionnante et qui nous donne à
+                tous l’occasion d’échanger et de discuter autour de passions communes. Sans vous, notre quotidien ne
+                serait sans doute pas le même. Effectuer une veille technologique plusieurs heures par jour est un
+                investissement important et ce sont vos nombreux retours qui nous permettent, chaque jour, de nous
+                améliorer et qui nous donnent envie de continuer à faire ce que nous faisons depuis plusieurs années
+                maintenant.</p>
 
-              <h3>Hébergement</h3>
+              <h3>Participez !</h3>
 
-              <p>Ce blog est hébergé par la société LeGrasCestLaVie, 50 rue Bidoche – 35200 Rennes – France.</p>
+              <p>Un site, un blog, ce n’est pas une aventure en solitaire. Contrairement à ce que l’on peut penser, ce
+                qui fait la richesse de ces derniers, ce sont tout autant les articles rédigés par les rédacteurs que
+                les commentaires et suggestions postées par ceux qui viennent les lire chaque jour. Et si vous avez
+                envie de participer, si vous souhaitez nous soumettre des produits ou des services, là encore il ne
+                faut pas hésiter à nous contacter. Toutefois, sachez que si nous lisons tous les mails qui nous sont
+                adressés, nous ne pouvons malheureusement pas y répondre à chaque fois. Ce sont effectivement plusieurs
+                centaines de communiqués de presse que nous recevons chaque semaine. Et on préfère finalement vous
+                écrire des articles plutôt que d’y répondre à chaque fois.</p>
 
-              <p>Cet hébergeur détient à ce jour les informations personnelles concernant l'auteur de ce site.</p>
+              <h3>Comment nous contacter</h3>
 
-              <h3>Données personnelles des utilisateurs</h3>
+              <div class="sans-bonus">
 
-              <p>Les données personnelles collectées par oblog.oclock.io sont uniquement destinées à un usage interne.</p>
+                <p>On en vient donc à ce qui vous intéresse, à savoir les manières dont vous pouvez nous contacter. En
+                  réalité, plusieurs choix s’offrent à vous :</p>
 
-              <p>Lorsque vous postez un commentaire sur ce site, vous devez fournir votre nom (ou votre pseudo) ainsi que votre adresse e-mail. Si vous le désirez, vous pouvez également vous identifier à l'aide de votre compte Twitter ou Facebook. Ces informations sont stockées dans une base de données appartenant à la société DataIsMoney. Votre adresse de courrier électronique ne sera jamais affichée sur le blog sans votre accord. Votre adresse IP est également enregistrée, mais ne sera jamais affichée, exploitée ou communiquée. Sauf dans le cas d'une réquisition par la justice. Conformément à l'article 39 de la loi du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous avez un droit d'accès, de modification et d'opposition sur vos données personnelles enregistrées par le blog. Utilisez pour cela le formulaire de contact.</p>
+                <p>
+                  Par mail, à l’adresse suivante : redaction(at)oclock(point)io.<br>
+                  Sur Twitter, à l’adresse suivante : <a href="https://twitter.com/oclock_io">https://twitter.com/oclock_io</a>.<br>
+                  Sur Facebook, à l’adresse suivante : <a href="https://www.facebook.com/Oclock.io/">https://www.facebook.com/Oclock.io/</a>.
+                </p>
 
-              <h3>Modération des commentaires</h3>
+                <p>Voilà, maintenant vous savez tout, à très vite !</p>
 
-              <p>Les commentaires de oblog.oclock.io sont modérés à postériori. Ils reflètent uniquement l'avis de leurs auteurs.</p>
+              </div>
 
-              <p>Tout commentaire à caractère injurieux, diffamatoire, xénophobe, raciste, antisémite, pornographique, révisionniste, homophobe, sexiste, d'incitation à la haine, à la violence ou en général tout sujet contraire à la loi et aux valeurs humanistes n'est pas accepté.</p>
+              <div class="avec-bonus">
+                <p>On en vient donc à ce qui vous intéresse, à savoir comment nous contacter. La réponse est limpide, il faut remplir le petit formulaire de contact ci-dessous :</p>
+                <form name="sentMessage" action="" id="contactForm" novalidate>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <label>Votre nom</label>
+                      <input type="text" class="form-control" placeholder="Nom" id="name" required
+                        data-validation-required-message="Please enter your name.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <label>Votre adresse email</label>
+                      <input type="email" class="form-control" placeholder="Adresse email" id="email" required
+                        data-validation-required-message="Please enter your email address.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group col-xs-12 floating-label-form-group controls">
+                      <label>Votre téléphone</label>
+                      <input type="tel" class="form-control" placeholder="Téléphone" id="phone" required
+                        data-validation-required-message="Please enter your phone number.">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group floating-label-form-group controls">
+                      <label>Votre message</label>
+                      <textarea rows="5" class="form-control" placeholder="Message" id="message" required
+                        data-validation-required-message="Please enter a message."></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <button type="submit" class="btn btn-dark" id="sendMessageButton">Send</button>
+                  </div>
+                </form>
+              </div>
 
-              <p>L'administrateur du site se réserve le droit de supprimer sans avertissement tout commentaire dérogeant à cette règle.</p>
-
-              <h3>Droits de reproduction</h3>
-
-              <p>La reproduction de tout ou partie du contenu de ce blog est interdite sans la permission écrite de l'auteur (sauf mention particulière). Tout autre matériel contenu sur ce site (photos, textes, images, codes source, logos, noms de produits ou marques citées, etc.), est la propriété de leurs détenteurs respectifs.</p>
-
-              <p>Les différentes illustrations et photographies publiées sur ce site sont systématiquement accompagnées de leurs crédits lorsque ces derniers sont connus. Si vous êtes l'auteur de l'une d'entre elles et qu'aucune mention ne le précise, n'hésitez pas à nous contacter. Suivant votre décision, nous ajouterons les mentions adéquates ou nous retirerons l'illustration ou la photographie incriminée.</p>
-
-              <h3>Crédits</h3>
-
-              <p>oblog.oclock.io utilise la plateforme de blogs WordPress.</p>
-
-              <p>Design réalisé par Maxime O'clock.</p>
             </p>
           </div>
         </article>
-        
+
       </main>
     </div><!-- /.row -->
 
@@ -154,12 +195,14 @@
                 Je déclare également que ces elements doivent être centré (flex): https://getbootstrap.com/docs/4.1/utilities/flex/#justify-content
                 ainsi que leur textes: https://getbootstrap.com/docs/4.1/utilities/text/#text-alignment -->
       <div class="row justify-content-center text-center">
+
+        
         <div class="col-9 links">
           <!-- Je créé une liste: https://getbootstrap.com/docs/4.1/components/list-group/ -->
           <ul class="list-inline">
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/contact.php">Nous contacter</a></li>
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/qui-sommes-nous.php">Qui sommes nous ?</a></li>
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/mentions-legales.php">Mentions légales</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/contact.php">Nous contacter</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/qui-sommes-nous.php">Qui sommes nous ?</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/mentions-legales.php">Mentions légales</a></li>
           </ul>
         </div>
       </div>

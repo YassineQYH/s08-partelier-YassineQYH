@@ -11,6 +11,7 @@ if ( ! function_exists( 'oblog_setup' ) ) :
         //On dit à wordpress qu'on gère les menus
         // https://github.com/O-clock-Alumni/fiches-recap/blob/master/wordpress/themes/setup-theme.md#menus-de-navigation
         add_theme_support('menus'); // Facultatif car induit par un register_nav_menus
+        register_nav_menu('header', 'Menu de liens dans le header');
         register_nav_menu('footer', 'Menu de liens dans le footer');
 
     }

@@ -19,7 +19,7 @@
   <!-- Ma feuille de style pour mon blog -->
   <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/style.css">
 
-  <title>Qui sommes nous ?</title>
+  <title>Mentions légales</title>
 </head>
 
 <body>
@@ -83,50 +83,53 @@
         <!-- Je dispose une card: https://getbootstrap.com/docs/4.1/components/card/ -->
         <article class="card">
           <div class="card-body">
-            <h2 class="card-title">Qui sommes nous ?</h2>
+            <h2 class="card-title">Mentions légales</h2>
             <p class="infos">
               Posté par <a href="#" class="card-link">Anthony</a> le <time>26/07/2018</time>
             </p>
             <p class="card-text">
+            
+              <h3>Editeur et responsable de publication</h3>
 
-              <h3>Une équipe mi-fruit mi-brique</h3>
+              <p>Maxime O'clock : hey(AT)oblog.oclock.io</p>
 
-              <p>
-                <strong>O’clock, c’est une école composée de quatre briques</strong><br>
+              <p>Ce blog est édité, à titre personnel, par les étudiants et les professeurs de l'école O'clock</p>
 
-                Quatre briques fondatrices : Dario, Lucie, Maxime et Anthony.<br>
+              <h3>Hébergement</h3>
 
-                Enfin, pas vraiment des briques puisque O’clock est une école sans murs. Donc ici, on parle de briques
-                virtuelles. Des briques symboliques, vous voyez ?<br>
+              <p>Ce blog est hébergé par la société LeGrasCestLaVie, 50 rue Bidoche – 35200 Rennes – France.</p>
 
-                Bon, on va prendre une autre phrase. D’autant plus que c’est pas top de se comparer à des briques.
-                C’est solide, c’est sûr, mais question finesse d’esprit, on repassera.
-              </p>
+              <p>Cet hébergeur détient à ce jour les informations personnelles concernant l'auteur de ce site.</p>
 
-              <p>
-                <strong>Non, O’clock, c’est le fruit de quatre personnes !</strong><br>
+              <h3>Données personnelles des utilisateurs</h3>
 
-                Et ça, ça parle à tout le monde car tout le monde aime les fruits. Sauf que les plus pointilleux auront noté que quatre personnes ne peuvent pas faire un fruit. D’ailleurs, ni quatre, ni une. C’est biologique : aucun être humain ne peut faire un fruit. Ce serait plutôt des arbres ou des buissons fruitiers qui font des fruits.<br>
-                  
-                Mais si on dit que O’clock est le fruit de quatre buissons fruitiers, vous n’allez absolument rien comprendre. Donc, on va laisser tomber l’idée du fruit. Ça partait bien, mais c’est trop compliqué.
-              </p>
+              <p>Les données personnelles collectées par oblog.oclock.io sont uniquement destinées à un usage interne.</p>
 
-              <h3>Des étudiants mi-heureux mi-extrement fatigués</h3>
+              <p>Lorsque vous postez un commentaire sur ce site, vous devez fournir votre nom (ou votre pseudo) ainsi que votre adresse e-mail. Si vous le désirez, vous pouvez également vous identifier à l'aide de votre compte Twitter ou Facebook. Ces informations sont stockées dans une base de données appartenant à la société DataIsMoney. Votre adresse de courrier électronique ne sera jamais affichée sur le blog sans votre accord. Votre adresse IP est également enregistrée, mais ne sera jamais affichée, exploitée ou communiquée. Sauf dans le cas d'une réquisition par la justice. Conformément à l'article 39 de la loi du 6 janvier 1978 relative à l'informatique, aux fichiers et aux libertés, vous avez un droit d'accès, de modification et d'opposition sur vos données personnelles enregistrées par le blog. Utilisez pour cela le formulaire de contact.</p>
 
-              <p>
-                Et oui, que ce soit en 3 ou 5 mois, la formation O'clock est hyper intense.<br>
+              <h3>Modération des commentaires</h3>
 
-                Résultat, la fatigue se fait rapidement sentir mais elle est contrebalancée par la joie d'avancer, d'apprendre et de concrétiser le tout dans des projets complexes.<br>
+              <p>Les commentaires de oblog.oclock.io sont modérés à postériori. Ils reflètent uniquement l'avis de leurs auteurs.</p>
 
-                Pour partager leurs émotions, il y a bien sûr le channel #kiemtao, mais il y a aussi ce blog "A la dérive".
-              </p>
+              <p>Tout commentaire à caractère injurieux, diffamatoire, xénophobe, raciste, antisémite, pornographique, révisionniste, homophobe, sexiste, d'incitation à la haine, à la violence ou en général tout sujet contraire à la loi et aux valeurs humanistes n'est pas accepté.</p>
 
-              </div>
+              <p>L'administrateur du site se réserve le droit de supprimer sans avertissement tout commentaire dérogeant à cette règle.</p>
 
+              <h3>Droits de reproduction</h3>
+
+              <p>La reproduction de tout ou partie du contenu de ce blog est interdite sans la permission écrite de l'auteur (sauf mention particulière). Tout autre matériel contenu sur ce site (photos, textes, images, codes source, logos, noms de produits ou marques citées, etc.), est la propriété de leurs détenteurs respectifs.</p>
+
+              <p>Les différentes illustrations et photographies publiées sur ce site sont systématiquement accompagnées de leurs crédits lorsque ces derniers sont connus. Si vous êtes l'auteur de l'une d'entre elles et qu'aucune mention ne le précise, n'hésitez pas à nous contacter. Suivant votre décision, nous ajouterons les mentions adéquates ou nous retirerons l'illustration ou la photographie incriminée.</p>
+
+              <h3>Crédits</h3>
+
+              <p>oblog.oclock.io utilise la plateforme de blogs WordPress.</p>
+
+              <p>Design réalisé par Maxime O'clock.</p>
             </p>
           </div>
         </article>
-
+        
       </main>
     </div><!-- /.row -->
 
@@ -154,9 +157,9 @@
         <div class="col-9 links">
           <!-- Je créé une liste: https://getbootstrap.com/docs/4.1/components/list-group/ -->
           <ul class="list-inline">
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/contact.php">Nous contacter</a></li>
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/qui-sommes-nous.php">Qui sommes nous ?</a></li>
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/mentions-legales.php">Mentions légales</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/contact.php">Nous contacter</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/qui-sommes-nous.php">Qui sommes nous ?</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/mentions-legales.php">Mentions légales</a></li>
           </ul>
         </div>
       </div>

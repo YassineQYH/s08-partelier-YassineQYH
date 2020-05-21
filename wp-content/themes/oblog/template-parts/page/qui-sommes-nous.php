@@ -19,7 +19,7 @@
   <!-- Ma feuille de style pour mon blog -->
   <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/style.css">
 
-  <title>Contactez-nous</title>
+  <title>Qui sommes nous ?</title>
 </head>
 
 <body>
@@ -83,88 +83,44 @@
         <!-- Je dispose une card: https://getbootstrap.com/docs/4.1/components/card/ -->
         <article class="card">
           <div class="card-body">
-            <h2 class="card-title">Contactez-nous</h2>
+            <h2 class="card-title">Qui sommes nous ?</h2>
             <p class="infos">
               Posté par <a href="#" class="card-link">Anthony</a> le <time>26/07/2018</time>
             </p>
             <p class="card-text">
 
-              <h3>La magie du web</h3>
+              <h3>Une équipe mi-fruit mi-brique</h3>
 
-              <p>Tenir un site ou un blog d’actualité est une aventure littéralement passionnante et qui nous donne à
-                tous l’occasion d’échanger et de discuter autour de passions communes. Sans vous, notre quotidien ne
-                serait sans doute pas le même. Effectuer une veille technologique plusieurs heures par jour est un
-                investissement important et ce sont vos nombreux retours qui nous permettent, chaque jour, de nous
-                améliorer et qui nous donnent envie de continuer à faire ce que nous faisons depuis plusieurs années
-                maintenant.</p>
+              <p>
+                <strong>O’clock, c’est une école composée de quatre briques</strong><br>
 
-              <h3>Participez !</h3>
+                Quatre briques fondatrices : Dario, Lucie, Maxime et Anthony.<br>
 
-              <p>Un site, un blog, ce n’est pas une aventure en solitaire. Contrairement à ce que l’on peut penser, ce
-                qui fait la richesse de ces derniers, ce sont tout autant les articles rédigés par les rédacteurs que
-                les commentaires et suggestions postées par ceux qui viennent les lire chaque jour. Et si vous avez
-                envie de participer, si vous souhaitez nous soumettre des produits ou des services, là encore il ne
-                faut pas hésiter à nous contacter. Toutefois, sachez que si nous lisons tous les mails qui nous sont
-                adressés, nous ne pouvons malheureusement pas y répondre à chaque fois. Ce sont effectivement plusieurs
-                centaines de communiqués de presse que nous recevons chaque semaine. Et on préfère finalement vous
-                écrire des articles plutôt que d’y répondre à chaque fois.</p>
+                Enfin, pas vraiment des briques puisque O’clock est une école sans murs. Donc ici, on parle de briques
+                virtuelles. Des briques symboliques, vous voyez ?<br>
 
-              <h3>Comment nous contacter</h3>
+                Bon, on va prendre une autre phrase. D’autant plus que c’est pas top de se comparer à des briques.
+                C’est solide, c’est sûr, mais question finesse d’esprit, on repassera.
+              </p>
 
-              <div class="sans-bonus">
+              <p>
+                <strong>Non, O’clock, c’est le fruit de quatre personnes !</strong><br>
 
-                <p>On en vient donc à ce qui vous intéresse, à savoir les manières dont vous pouvez nous contacter. En
-                  réalité, plusieurs choix s’offrent à vous :</p>
+                Et ça, ça parle à tout le monde car tout le monde aime les fruits. Sauf que les plus pointilleux auront noté que quatre personnes ne peuvent pas faire un fruit. D’ailleurs, ni quatre, ni une. C’est biologique : aucun être humain ne peut faire un fruit. Ce serait plutôt des arbres ou des buissons fruitiers qui font des fruits.<br>
+                  
+                Mais si on dit que O’clock est le fruit de quatre buissons fruitiers, vous n’allez absolument rien comprendre. Donc, on va laisser tomber l’idée du fruit. Ça partait bien, mais c’est trop compliqué.
+              </p>
 
-                <p>
-                  Par mail, à l’adresse suivante : redaction(at)oclock(point)io.<br>
-                  Sur Twitter, à l’adresse suivante : <a href="https://twitter.com/oclock_io">https://twitter.com/oclock_io</a>.<br>
-                  Sur Facebook, à l’adresse suivante : <a href="https://www.facebook.com/Oclock.io/">https://www.facebook.com/Oclock.io/</a>.
-                </p>
+              <h3>Des étudiants mi-heureux mi-extrement fatigués</h3>
 
-                <p>Voilà, maintenant vous savez tout, à très vite !</p>
+              <p>
+                Et oui, que ce soit en 3 ou 5 mois, la formation O'clock est hyper intense.<br>
 
-              </div>
+                Résultat, la fatigue se fait rapidement sentir mais elle est contrebalancée par la joie d'avancer, d'apprendre et de concrétiser le tout dans des projets complexes.<br>
 
-              <div class="avec-bonus">
-                <p>On en vient donc à ce qui vous intéresse, à savoir comment nous contacter. La réponse est limpide, il faut remplir le petit formulaire de contact ci-dessous :</p>
-                <form name="sentMessage" action="" id="contactForm" novalidate>
-                  <div class="control-group">
-                    <div class="form-group floating-label-form-group controls">
-                      <label>Votre nom</label>
-                      <input type="text" class="form-control" placeholder="Nom" id="name" required
-                        data-validation-required-message="Please enter your name.">
-                      <p class="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="form-group floating-label-form-group controls">
-                      <label>Votre adresse email</label>
-                      <input type="email" class="form-control" placeholder="Adresse email" id="email" required
-                        data-validation-required-message="Please enter your email address.">
-                      <p class="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="form-group col-xs-12 floating-label-form-group controls">
-                      <label>Votre téléphone</label>
-                      <input type="tel" class="form-control" placeholder="Téléphone" id="phone" required
-                        data-validation-required-message="Please enter your phone number.">
-                      <p class="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div class="control-group">
-                    <div class="form-group floating-label-form-group controls">
-                      <label>Votre message</label>
-                      <textarea rows="5" class="form-control" placeholder="Message" id="message" required
-                        data-validation-required-message="Please enter a message."></textarea>
-                      <p class="help-block text-danger"></p>
-                    </div>
-                  </div>
-                  <div class="form-group">
-                    <button type="submit" class="btn btn-dark" id="sendMessageButton">Send</button>
-                  </div>
-                </form>
+                Pour partager leurs émotions, il y a bien sûr le channel #kiemtao, mais il y a aussi ce blog "A la dérive".
+              </p>
+
               </div>
 
             </p>
@@ -198,9 +154,9 @@
         <div class="col-9 links">
           <!-- Je créé une liste: https://getbootstrap.com/docs/4.1/components/list-group/ -->
           <ul class="list-inline">
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/contact.php">Nous contacter</a></li>
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/qui-sommes-nous.php">Qui sommes nous ?</a></li>
-            <li class="list-inline-item"><a href="/wp-content/themes/oblog/mentions-legales.php">Mentions légales</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/contact.php">Nous contacter</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/qui-sommes-nous.php">Qui sommes nous ?</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/template-parts/page/mentions-legales.php">Mentions légales</a></li>
           </ul>
         </div>
       </div>
