@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <!-- Ma feuille de style pour mon blog -->
-  <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/blog.css">
+  <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/style.css">
 
   <title>Qui sommes nous ?</title>
 </head>

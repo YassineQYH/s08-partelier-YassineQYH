@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <!-- Ma feuille de style pour mon blog -->
-  <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/blog.css">
+  <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/style.css">
 
   <title>Contactez-nous</title>
 </head>
@@ -83,7 +83,7 @@
         <!-- Je dispose une card: https://getbootstrap.com/docs/4.1/components/card/ -->
         <article class="card">
           <div class="card-body">
-            <h2 class="card-title">Mentions légales</h2>
+            <h2 class="card-title">Contactez-nous</h2>
             <p class="infos">
               Posté par <a href="#" class="card-link">Anthony</a> le <time>26/07/2018</time>
             </p>

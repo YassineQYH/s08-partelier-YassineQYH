@@ -3,6 +3,7 @@
   get_header();
 ?>
 
+
 <body>
 
   <!-- HEADER -->
@@ -61,43 +62,27 @@
         https://getbootstrap.com/docs/4.1/layout/grid/#grid-options -->
       <main class="col-lg-9">
 
-      <?php 
-          //Si j'ai des articles à afficher
+
+<?php 
+          /* //Si j'ai des articles à afficher
             if ( have_posts() ) :
               //Alors je boucle tant que j'ai des articles à afficher
-              while ( have_posts() ) : 
+              while ( have_posts() ) :  */
                 //On position le curseur sur un article
                 the_post();
                 ?>
 
-                  <?php
-                    $categories = get_the_category(); 
-                    foreach($categories as $category):
-                  ?>
-                      
-                  <?php endforeach; ?>
-
                 <!-- Je dispose une card: https://getbootstrap.com/docs/4.1/components/card/ -->
                 <article class="card">
                   <div class="card-body">
-                    <h2 class="card-title"><a href="<?php the_permalink() ?>"><?= the_title()?></a></h2>
-                    <p class="card-text"><?= the_excerpt()?></p>
+                    <h2 class="card-title"><?= the_title()?></a></h2>
+                    <p class="card-text"><?= the_content()?></p>
                     <p class="infos">
                       Posté par <a href="#" class="card-link"><?= the_author()?></a> le <time><?php 
                       the_date( 'd F Y');
-                    ?></time> dans <a href="<?= get_template_directory_uri() ?>/category.php" class="card-link"><a href="<?= get_category_link($category->term_id) ?>" class="post__category post__category--color-<?= strtolower($category->name)?>"><?= $category->name ?></a></a>
-                    </p><a href="<?php the_permalink() ?>" class="post__link">Lire plus</a>
-                  </div>
+                    ?></time> dans <a href="<?= get_template_directory_uri() ?>/category.php" class="card-link">#MaVieDeDev</a>
+                  </div><a href="<?= get_home_url() ?>" class="post__link">Retour</a>
                 </article>
-
-                <?php 
-              endwhile;
-            else:
-              e('sorry, no posts were found.', 'textdomain');
-            endif;
-            ?>
-
-
 
         <!-- Je met un element de navigation: https://getbootstrap.com/docs/4.1/components/pagination/ -->
         <nav aria-label="Page navigation example" class="avec-bonus">
@@ -109,6 +94,8 @@
 
       </main>
 
+
+      
       <aside class="col-lg-3">
         <!-- Champ de recherche: https://getbootstrap.com/docs/4.1/components/input-group/ -->
         <div class="avec-bonus input-group mb-3">
@@ -144,26 +131,10 @@
           </ul>
         </div>
 
-        <!-- <?php
-          $authors = get_the_author(); 
-          foreach($authors as $author):
-        ?>
-                    <a href="<?= get_category_link($author->term_id) ?>" class="post__author post__author--color-<?= strtolower($author->name)?>"><?= $author->name ?></a>
-        <?php endforeach; ?>
-        <div class="card">
-          <h3 class="card-header">Auteurs</h3>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item"><?= the_author()?></li>
-
-          </ul>
-        </div> -->
-
-
-
       </aside>
     </div><!-- /.row -->
 
-
+    
 <?php 
   // Permet d'afficher le contenu du fichier footer.php
   get_footer();
