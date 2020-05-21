@@ -1,7 +1,26 @@
-<?php 
-  // Permet d'afficher le contenu du fichier header.php
-  get_header();
-?>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Déclaration de notre font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,800" rel="stylesheet">
+
+  <!-- -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <!-- Ma feuille de style pour mon blog -->
+  <link rel="stylesheet" href="/wp-content/themes/oblog/assets/css/blog.css">
+
+  <title>Ma vie de dév</title>
+</head>
 
 <body>
 
@@ -132,8 +151,47 @@
     </div><!-- /.row -->
 
 
+    <footer>
 
-    <?php 
-  // Permet d'afficher le contenu du fichier footer.php
-  get_footer();
-?>
+      <!-- Je crée une nouvelle ligne dans ma grille virtuelle: https://getbootstrap.com/docs/4.1/layout/grid/
+                Je déclare également que ces elements doivent être centré (flex): https://getbootstrap.com/docs/4.1/utilities/flex/#justify-content
+                ainsi que leur textes: https://getbootstrap.com/docs/4.1/utilities/text/#text-alignment -->
+      <div class="row justify-content-center text-center">
+        <div class="col-6 social-networks">
+          <!-- Je créé une liste: https://getbootstrap.com/docs/4.1/components/list-group/ -->
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li class="list-inline-item"><a href="#"><i class="fab fa-github-square"></i></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Je crée une nouvelle ligne dans ma grille virtuelle: https://getbootstrap.com/docs/4.1/layout/grid/
+                Je déclare également que ces elements doivent être centré (flex): https://getbootstrap.com/docs/4.1/utilities/flex/#justify-content
+                ainsi que leur textes: https://getbootstrap.com/docs/4.1/utilities/text/#text-alignment -->
+      <div class="row justify-content-center text-center">
+        <div class="col-9 links">
+          <!-- Je créé une liste: https://getbootstrap.com/docs/4.1/components/list-group/ -->
+          <ul class="list-inline">
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/contact.php">Nous contacter</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/qui-sommes-nous.php">Qui sommes nous ?</a></li>
+            <li class="list-inline-item"><a href="/wp-content/themes/oblog/mentions-legales.php">Mentions légales</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </footer>
+
+  </div> <!-- /.container -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
