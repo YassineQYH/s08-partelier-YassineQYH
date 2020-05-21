@@ -82,10 +82,10 @@
                   <div class="card-body">
                     <h2 class="card-title"><a href="<?php the_permalink() ?>"><?= the_title()?></a></h2>
                     <p class="card-text"><?= the_excerpt()?></p>
-                    <p class="infos">
-                      Posté par <a href="#" class="card-link"><?= the_author()?></a> le <time><?php 
-                      the_date( 'd F Y');
-                    ?></time> dans <a href="<?= get_template_directory_uri() ?>/category.php" class="card-link"><a href="<?= get_category_link($category->term_id) ?>" class="post__category post__category--color-<?= strtolower($category->name)?>"><?= $category->name ?></a></a>
+                    <p class="infos">Posté par <a href="#" class="card-link"><?= the_author()?></a>
+                     le <time><?php the_date( 'd F Y');?></time> 
+                     dans <a href="<?= get_template_directory_uri() ?>/category.php" class="card-link"><a href="<?= get_category_link($category->term_id) ?>" class="post__category post__category--color-<?= strtolower($category->name)?>"><?= $category->name ?></a></a>
+                     
                     </p><a href="<?php the_permalink() ?>" class="post__link">Lire plus</a>
                   </div>
                 </article>
